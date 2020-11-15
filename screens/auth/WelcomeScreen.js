@@ -165,7 +165,7 @@ function Welcome(props) {
             Mozgat
           </Text>
           <Text h1 secondary>
-            Lak.
+            Lak
           </Text>
         </Text>
       </Block>

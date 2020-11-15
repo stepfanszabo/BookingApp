@@ -11,7 +11,7 @@ import NotFoundScreen from "../screens/NotFoundScreen";
 import Loading from "../screens/Loading";
 import { AuthContext } from "../context/authContext";
 import HomeScreen from "../screens/HomeScreen";
-import TripDetailsScreen from "../screens/TripDetailsScreen";
+import AddTrainingScreen from "../screens/AddTrainingScreen";
 
 import firebase from "firebase/app";
 import "firebase/firestore";
@@ -64,7 +64,7 @@ function RootNavigator() {
   return (
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       <Stack.Screen name="Home" component={HomeScreen} />
-      <Stack.Screen name="TripDetails" component={TripDetailsScreen} />
+      <Stack.Screen name="AddTraining" component={AddTrainingScreen} />
       <Stack.Screen
         name="NotFound"
         component={NotFoundScreen}
